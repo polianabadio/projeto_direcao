@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  position:relative;
+  justify-content: space-evenly;
+}
+nav{
+    
+  display: flex;
+  background-color: #DDA0DD;
+  margin-top: 0%;
+  height: 90px;
+  box-shadow: 1px 3px 3px #866512;
+  
+}
+.carrinho{
+  width: 70px;
+  position:relative;
+  left: 30px;
+}
+.login{
+  width: 50px;
+}
+.logo{
+  width: 200px;
+  position:relative;
+  left: 50px;
+  
+}
+.index-menu{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.index-menu li{
+  height: 50px;
+  right: 10px;
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.index-menu a{
+  
+  height: 90px;
+  color:#866512 ;
+  text-decoration: none;
+  display:flex;
+  align-items: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight:bold;
+  font-size:28px;
+} 
+div.botoes_central{
+  position:relative;
+  left: 140px;
+  justify-content: space-evenly;
+  display: flex;
+  
+}
+div.botoes_esquerda{
+  position:relative;
+  left: 250px;
+  
+  
+  
+}
+
+.index-menu li:hover > a{
+  color:#B31748;
+}
+
