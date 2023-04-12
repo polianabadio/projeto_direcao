@@ -1,5 +1,98 @@
 .primeira-foto{
     position: relative;
-    width: 300px;
-    
+    width: 24%;
+    left: 20px;
+    top: 110px;
+    box-shadow: 1px 3px 2px #866512;
+}
+
+.legenda1-blog{
+    position: absolute;
+  z-index: 2;
+  top: 72%;
+  left: 3%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 25px;
+  text-stroke: 1px #B31748;
+  -webkit-text-stroke: 1px #B31748;
+  color:#B31748;
+  
+}
+.legenda2-blog{
+    position: absolute;
+  z-index: 1;
+  top: 72%;
+  left: 28%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 25px;
+  text-stroke: 1px #B31748;
+  -webkit-text-stroke: 1px #B31748;
+  color:#B31748;
+  
+}
+
+.segunda-foto{
+    position: relative;
+    width: 24%;
+    left: 30px;
+    top: 110px;
+    box-shadow: 1px 3px 2px #866512;
+}
+
+.terceira-foto{
+    position: relative;
+    width: 24%;
+    left: 40px;
+    top: 110px;
+    box-shadow: 1px 3px 2px #866512;
+}
+
+.legenda3-blog{
+    position: absolute;
+  z-index: 1;
+  top: 72%;
+  left: 53%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 25px;
+  text-stroke: 1px #B31748;
+  -webkit-text-stroke: 1px #B31748;
+  color:#B31748;
+  
+}
+
+.quarta-foto{
+    position: relative;
+    width: 24%;
+    left: 50px;
+    top: 110px;
+    box-shadow: 1px 3px 2px #866512
+}
+
+.legenda4-blog{
+    position: absolute;
+  z-index: 1;
+  top: 72%;
+  left: 78%;
+  font-size: 25px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-stroke: 1px #B31748;
+  -webkit-text-stroke: 1px #B31748;
+  color:#B31748;
+}
+
+.legenda1-blog:hover{
+    color:#B31748
+}
+.legenda2-blog:hover{
+    color:#B31748
+}
+.legenda3-blog:hover{
+    color:#B31748
+}
+.legenda4-blog:hover{
+    color:#B31748
+}
+
+main{
+    width: 100%;
 }
