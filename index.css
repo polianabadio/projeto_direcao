@@ -17,17 +17,14 @@ nav{
   
 }
 .carrinho{
-  width: 70px;
   position:relative;
   left: 30px;
 }
-.login{
-  width: 50px;
-}
+
 .logo{
   width: 200px;
   position:relative;
-  left: 50px;
+  
   
 }
 .index-menu{
@@ -37,7 +34,6 @@ nav{
 
 .index-menu li{
   height: 50px;
-  right: 10px;
   list-style: none;
   display: inline-block;
   padding-left: 20px;
@@ -45,6 +41,9 @@ nav{
   margin-right: 10px;
   margin-left: 10px;
 }
+
+
+
 
 .index-menu a{
   
@@ -59,20 +58,48 @@ nav{
 } 
 div.botoes_central{
   position:relative;
-  left: 140px;
   justify-content: space-evenly;
   display: flex;
+  text-decoration: none;
+  right: 35px;
   
 }
 div.botoes_esquerda{
   position:relative;
-  left: 250px;
   
-  
-  
+  text-decoration: none;
 }
 
 .index-menu li:hover > a{
   color:#B31748;
+  text-decoration: none;
 }
 
+
+#icones{
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  z-index: 999;
+  text-decoration: none;
+}
+
+#fixos{
+  display: inline-block;
+  width: calc(50% - 2px); 
+  font-size: 16px; 
+  text-align: center;
+  color: #866512 ;
+}
+
+#fixos:hover{
+  color: #B31748;
+}
+
+#foto_carrossel{
+  width: 100%;
+  height: 565px;
+  object-fit: contain;
+  object-position: center;
+  transform: rotate(90deg);
+}
