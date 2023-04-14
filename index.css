@@ -2,21 +2,24 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 header{
-  position:relative;
+  position:absolute;
   justify-content: space-evenly;
+  z-index: 999;
+  width: 100%;
 }
+
 nav{
-    
-  display: flex;
+  width: 100%;
+  display: absolute;
   background-color: #DDA0DD;
   margin-top: 0%;
-  height: 90px;
+  height: 13vh;
   box-shadow: 1px 3px 4px #866512;
-  width: 100%;
-  position: absolute;
-  z-index: 2;
+  
+  
 }
 
 .logo{
@@ -28,10 +31,11 @@ nav{
 .index-menu{
   display: flex;
   justify-content: space-evenly;
+  height: 50%;
 }
 
 .index-menu li{
-  height: 50px;
+  height: 50%;
   list-style: none;
   display: inline-block;
   padding-left: 20px;
@@ -62,9 +66,7 @@ div.botoes_central{
   right: 35px;
   
 }
-header{
-  height: 30%;
-}
+
 
 main{
   height: 70%;
@@ -130,3 +132,7 @@ main{
   -webkit-text-stroke: 1px #DDA0DD;
   color:#866512;
 }
+
+
+
+

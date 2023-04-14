@@ -2,7 +2,7 @@
     position: relative;
     width: 24%;
     left: 20px;
-    top: 110px;
+    margin-top: 5%;
     box-shadow: 1px 3px 2px #866512;
 }
 
@@ -35,7 +35,7 @@
     position: relative;
     width: 24%;
     left: 30px;
-    top: 110px;
+    margin-top: 5%;
     box-shadow: 1px 3px 2px #866512;
 }
 
@@ -43,7 +43,7 @@
     position: relative;
     width: 24%;
     left: 40px;
-    top: 110px;
+    margin-top: 5%;
     box-shadow: 1px 3px 2px #866512;
 }
 
@@ -64,7 +64,7 @@
     position: relative;
     width: 24%;
     left: 50px;
-    top: 110px;
+    margin-top: 5%;
     box-shadow: 1px 3px 2px #866512
 }
 

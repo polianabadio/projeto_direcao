@@ -1,0 +1,84 @@
+#modal-login{
+    display:none;
+    z-index: 9999;
+    position: fixed;
+    top:0%;
+    width: 100%;
+}
+.area-login{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DDA0DD;
+    width: 22%;
+    height: 500px;
+    padding: 35px;
+    border-radius: 10px;
+    border: 4px solid #866512;
+}
+
+.login form{
+    margin-top: 15%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.login input{
+
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+    color: #866512;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #866512;
+
+
+}
+
+.input::placeholder::placeholder{
+    color: white;
+    font-size: 14px;
+    
+}
+
+#cadastre{
+    position: flex;
+    margin-top: 13%;
+    color: #866512;
+}
+
+#btn-cadastre:hover{
+    color:#B31748;
+    
+}
+
+#btn-close{
+    position: fixed;
+    color: #866512;
+    left: 57.5%;
+    
+}
+
+#btn-close:hover{
+    color:#B31748
+}
+
+#img-modal{
+    position: flex;
+    margin-top: 13%;
+}
