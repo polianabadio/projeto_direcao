@@ -39,4 +39,10 @@ function logar (){
   });
 
 
-      
+  window.onload = function() {
+    var hash = window.location.hash.substr(1);
+    var target = document.getElementById(hash);
+    if (target) {
+      target.scrollIntoView();
+    }
+  }
