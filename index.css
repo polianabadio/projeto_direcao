@@ -5,7 +5,7 @@
   
 }
 header{
-  position:absolute;
+  position:fixed;
   justify-content: space-evenly;
   z-index: 999;
   width: 100%;
@@ -13,35 +13,34 @@ header{
 
 nav{
   width: 100%;
-  display: absolute;
+  display: fixed;
   background-color: #DDA0DD;
   margin-top: 0%;
-  height: 13vh;
+  height: 14vh;
   box-shadow: 1px 3px 4px #866512;
   
   
 }
 
 .logo{
-  width: 200px;
+  width: 13vw;
   position:relative;
-  
-  
 }
 .index-menu{
   display: flex;
   justify-content: space-evenly;
   height: 50%;
+  margin-top: 0%;
 }
 
 .index-menu li{
   height: 50%;
   list-style: none;
   display: inline-block;
-  padding-left: 20px;
+  padding-left: 0%;
   justify-content: space-evenly;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 1.5vw;
+  margin-left: 0%;
 }
 
 
@@ -49,21 +48,21 @@ nav{
 
 .index-menu a{
   
-  height: 90px;
+  height: 15vh;
   color:#866512 ;
   text-decoration: none;
   display:flex;
   align-items: center;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight:bold;
-  font-size:28px;
+  font-size:2vw;
 } 
 div.botoes_central{
   position:relative;
   justify-content: space-evenly;
   display: flex;
   text-decoration: none;
-  right: 35px;
+  right: 3%;
   
 }
 
@@ -79,8 +78,8 @@ div.botoes_central{
 
 #icones{
   position: fixed;
-  bottom: 50px;
-  right: 100px;
+  bottom: 10%;
+  right: 8%;
   z-index: 999;
   text-decoration: none;
 }
@@ -88,7 +87,6 @@ div.botoes_central{
 #fixos{
   display: inline-block;
   width: calc(50% - 2px); 
-  font-size: 16px; 
   text-align: center;
   color: #866512 ;
 }
@@ -113,7 +111,7 @@ div.botoes_central{
   padding: 1%;
   font-family: 'PT Sans Narrow', sans-serif;
   top:50%;
-  font-size: 20px;
+  font-size: 2vw;
   
 }
 

@@ -6,14 +6,12 @@
     width: 100%;
 }
 .area-login{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    
 }
 
 .login{
@@ -36,7 +34,6 @@
     flex-direction: column;
 }
 .login input{
-
     margin-top: 10px;
     background-color: white;
     border: none;
@@ -46,14 +43,11 @@
     outline: none;
     border-radius: 8px;
     border: 2px solid #866512;
-
-
 }
 
 .input::placeholder::placeholder{
     color: white;
     font-size: 14px;
-    
 }
 
 #cadastre{
@@ -64,14 +58,12 @@
 
 #btn-cadastre:hover{
     color:#B31748;
-    
 }
 
 #btn-close{
     position: fixed;
     color: #866512;
     left: 57.5%;
-    
 }
 
 #btn-close:hover{
